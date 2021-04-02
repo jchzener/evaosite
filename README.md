@@ -2,6 +2,4 @@
 
 ### Deploys
 
-`firebase init`
-
-`firebase deploy`
+'Deploy on github, using Cmake to link to the domain name'
