@@ -9,7 +9,7 @@ sell_rate = 550
 proCost = 85760 + 158
 
 # Customs fee
-customsCost = 5000000
+customsCost = 5500000
 
 # Monthly Security agency charges 
 monthlySecuCost = 100000
