@@ -21,8 +21,8 @@ monthlyStorageCost = 2*80000
 monthlySalaryCost = 2*50000
 
 def totalCostusd(cfa2usd, n1, n2):
-	total =  proCost + (customsCost + monthlySalaryCost*n1 +
-	         monthlySecuCost*n1 + monthlyStorageCost*n2)/cfa2usd
+	total =  proCost + (customsCost + monthlySalaryCost*n1
+	         + monthlySecuCost*n1 + monthlyStorageCost*n2)/cfa2usd
 	return math.ceil(total)
 
 total_cost_cfa = totalCostusd(cfa2usd, 6, 6)*usd2cfa
