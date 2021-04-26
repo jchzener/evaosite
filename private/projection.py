@@ -9,7 +9,7 @@ usd2cfa = 575                    #sell_rate
 proCost = 85760 + 158 + 2618.21 + 1528.29
 
 # Customs fee
-customsCost = 5384784 + 50000
+customsCost = 5384784 + 100000
 
 # Monthly Security agency charges 
 monthlySecuCost = 100000
@@ -34,7 +34,7 @@ unit_cost = math.ceil(unit_cost_cfa/cfa2usd)
 def totalRevenue(unitPrice, quantity):
 	return math.floor(unitPrice*quantity)
 
-total_revenue = totalRevenue(475925, 190)
+total_revenue = totalRevenue(430000, 40) + totalRevenue(475925, 150)
 
 # Profit
 def profit(total_revenue, total_cost):
