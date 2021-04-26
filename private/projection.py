@@ -2,36 +2,40 @@ import math
 
 # Expenses in USD
 # USDtoCFA: 
-buy_rate = 530 
-sell_rate = 550 
+cfa2usd = 530                    #buy_rate 
+usd2cfa = 575                    #sell_rate 
 
 # Product cost to the benin port
-proCost = 85760 + 158
+proCost = 85760 + 158 + 2618.21 + 1528.29
 
 # Customs fee
-customsCost = 5500000
+customsCost = 5384784 + 50000
 
 # Monthly Security agency charges 
 monthlySecuCost = 100000
 
 # Monthly Storage warehouse cost
-monthlyStorageCost = 80000
+monthlyStorageCost = 2*80000
 
-def totalCostusd(buy_rate, n1, n2):
-	total =  proCost + customsCost/buy_rate + monthlySecuCost*n1/buy_rate + monthlyStorageCost*n2/buy_rate
+# Monthly salary cost
+monthlySalaryCost = 2*50000
+
+def totalCostusd(cfa2usd, n1, n2):
+	total =  proCost + (customsCost + monthlySalaryCost*n1 +
+	         monthlySecuCost*n1 + monthlyStorageCost*n2)/cfa2usd
 	return math.ceil(total)
 
+total_cost_cfa = totalCostusd(cfa2usd, 6, 6)*usd2cfa
 
-total_cost_cfa = totalCostusd(530, 8, 8)*sell_rate
-
-unit_cost = math.ceil(total_cost_cfa/190)
-unit_cost_cfa = math.ceil(unit_cost*sell_rate)
+unit_cost_cfa = math.ceil(total_cost_cfa/190)
+unit_cost = math.ceil(unit_cost_cfa/cfa2usd)
 
 # Total revenue
 def totalRevenue(unitPrice, quantity):
 	return math.floor(unitPrice*quantity)
 
-total_revenue = totalRevenue(430000, 190)
+total_revenue = totalRevenue(470000, 190)
+
 # Profit
 def profit(total_revenue, total_cost):
 	return math.floor(total_revenue - total_cost_cfa)
