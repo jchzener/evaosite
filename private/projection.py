@@ -50,7 +50,7 @@ myReturn = ROI(profit, total_cost_cfa)
 print("unit_cost: {} \nunit_cost_cfa: {} \ntotal_revenue_cfa: {} \nprofi_cfa: {} \nROI: {}".format(unit_cost, unit_cost_cfa, total_revenue, profit, myReturn))
 
 # >>> unit_cost_cfa
-#287815.0
+# 287815.0
 #>>> unit_cost_cfa*1.75
 #503676.25
 #>>> unit_cost_cfa*1.5
