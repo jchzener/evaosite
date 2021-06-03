@@ -15,7 +15,7 @@ customsCost = 5384784 + 100000
 monthlySecuCost = 100000*0
 
 # Monthly Storage warehouse cost
-monthlyStorageCost = 60000
+monthlyStorageCost = 50000
 
 # Monthly salary cost
 monthlySalaryCost = 2*50000
