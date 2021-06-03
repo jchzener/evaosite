@@ -1,9 +1,9 @@
 import math
 
 # Expenses in USD
-# USDtoCFA: 
-cfa2usd = 530                    #buy_rate 
-usd2cfa = 575                    #sell_rate 
+# USDtoCFA:
+cfa2usd = 530                    #buy_rate
+usd2cfa = 575                    #sell_rate
 
 # Product cost to the benin port
 proCost = 85760 + 158 + 2618.21 + 1528.29
@@ -11,8 +11,8 @@ proCost = 85760 + 158 + 2618.21 + 1528.29
 # Customs fee
 customsCost = 5384784 + 100000
 
-# Monthly Security agency charges 
-monthlySecuCost = 100000
+# Monthly Security agency charges
+monthlySecuCost = 100000*0
 
 # Monthly Storage warehouse cost
 monthlyStorageCost = 2*80000
