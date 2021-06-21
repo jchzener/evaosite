@@ -25,7 +25,7 @@ def totalCostusd(cfa2usd, n1, n2):
 	         + monthlySecuCost*n1 + monthlyStorageCost*n2)/cfa2usd
 	return math.ceil(total)
 
-total_cost_cfa = totalCostusd(cfa2usd, 6, 6)*usd2cfa
+total_cost_cfa = totalCostusd(cfa2usd, 12, 12)*usd2cfa
 
 unit_cost_cfa = math.ceil(total_cost_cfa/190)
 unit_cost = math.ceil(unit_cost_cfa/cfa2usd)
