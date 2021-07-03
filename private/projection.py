@@ -8,8 +8,8 @@ usd2cfa = 575                    #sell_rate
 # Product cost to the benin port
 proCost = 85760 + 158 + 2618.21 + 1528.29
 
-# Customs fee
-customsCost = 5384784 + 100000
+# Customs fee + moto
+customsCost = 5384784 + 100000 + 350000
 
 # Monthly Security agency charges
 monthlySecuCost = 100000*0
@@ -18,7 +18,7 @@ monthlySecuCost = 100000*0
 monthlyStorageCost = 50000
 
 # Monthly salary cost
-monthlySalaryCost = 2*50000
+monthlySalaryCost = 1*40000 + 80000
 
 def totalCostusd(cfa2usd, n1, n2):
 	total =  proCost + (customsCost + monthlySalaryCost*n1
@@ -34,7 +34,7 @@ unit_cost = math.ceil(unit_cost_cfa/cfa2usd)
 def totalRevenue(unitPrice, quantity):
 	return math.floor(unitPrice*quantity)
 
-total_revenue = totalRevenue(430000, 30) + totalRevenue(475925, 160)
+total_revenue = totalRevenue(400000, 40) + totalRevenue(455000, 150)
 
 # Profit
 def profit(total_revenue, total_cost):
