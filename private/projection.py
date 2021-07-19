@@ -60,4 +60,4 @@ print("unit_cost: {} \nunit_cost_cfa: {} \ntotal_revenue_cfa: {} \nprofi_cfa: {}
 #>>> 150000*190
 #28500000
 #>>> 150000*190/550
-#51818.181818
+#51818.18181
