@@ -2,7 +2,7 @@ import math
 
 # Expenses in USD
 # USDtoCFA:
-cfa2usd = 530                    #buy_rate
+cfa2usd = 555                    #buy_rate
 usd2cfa = 575                    #sell_rate
 
 # Product cost to the benin port
@@ -18,7 +18,7 @@ monthlySecuCost = 100000*0
 monthlyStorageCost = 50000
 
 # Monthly salary cost
-monthlySalaryCost = 1*40000 + 80000
+monthlySalaryCost = 1*30000 + 70000
 
 def totalCostusd(cfa2usd, n1, n2):
 	total =  proCost + (customsCost + monthlySalaryCost*n1
