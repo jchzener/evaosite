@@ -2,7 +2,7 @@ import math
 
 # Expenses in USD
 # USDtoCFA:
-cfa2usd = 530                    #buy_rate
+cfa2usd = 530                #buy_rate
 usd2cfa = 575                    #sell_rate
 
 # Product cost to the benin port
