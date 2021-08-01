@@ -3,7 +3,7 @@ import math
 # Expenses in USD
 # USDtoCFA:
 cfa2usd = 555                #buy_rate
-usd2cfa = 575                #sell_rate
+usd2cfa = 555                #sell_rate
 
 # Product cost to the benin port
 proCost = 85760 + 158 + 2618.21 + 1528.29
