@@ -9,7 +9,7 @@ usd2cfa = 555                #sell_rate
 proCost = 85760 + 158 + 2618.21 + 1528.29
 
 # Customs fee + moto
-customsCost = 5384784 + 100000 + 450000
+customsCost = 5384784 + 100000 + 400000
 
 # Monthly Security agency charges
 monthlySecuCost = 100000*0
