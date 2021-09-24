@@ -9,7 +9,7 @@ usd2cfa = 555                #sell_rate
 proCost = 85760 + 158 + 2618.21 + 1528.29
 
 # Customs fee + moto
-customsCost = 5384784 + 100000 + 400000
+customsCost = 5384784 + 100000 + 480000
 
 # Monthly Security agency charges
 monthlySecuCost = 100000*0
@@ -18,7 +18,7 @@ monthlySecuCost = 100000*0
 monthlyStorageCost = 50000
 
 # Monthly salary cost
-monthlySalaryCost = 2*30000 + 70000
+monthlySalaryCost = 1*30000 + 70000
 
 def totalCostusd(cfa2usd, n1, n2):
 	total =  proCost + (customsCost + monthlySalaryCost*n1
