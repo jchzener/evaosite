@@ -34,7 +34,7 @@ unit_cost = math.ceil(unit_cost_cfa/cfa2usd)
 def totalRevenue(unitPrice, quantity):
 	return math.floor(unitPrice*quantity)
 
-total_revenue = totalRevenue(437925*1.18, 90) + totalRevenue(430000, 100)
+total_revenue = totalRevenue(437925*1.18, 90) + totalRevenue(475000, 100)
 
 # Profit
 def profit(total_revenue, total_cost):
