@@ -5,7 +5,7 @@ import math
 cfa2usd = 555                #buy_rate
 usd2cfa = 555                #sell_rate
 
-# Product cost to the benin port
+#Product cost to the benin port
 proCost = 85760 + 158 + 2618.21 + 1528.29
 
 # Customs fee + moto + test + bribe
