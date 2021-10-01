@@ -30,7 +30,7 @@ total_cost_cfa = totalCostusd(cfa2usd, 12, 12)*usd2cfa
 unit_cost_cfa = math.ceil(total_cost_cfa/190)
 unit_cost = math.ceil(unit_cost_cfa/cfa2usd)
 
-# Total revenue
+#Total revenue
 def totalRevenue(unitPrice, quantity):
 	return math.floor(unitPrice*quantity)
 
