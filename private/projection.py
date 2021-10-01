@@ -17,7 +17,7 @@ monthlySecuCost = 100000*0
 #Monthly Storage warehouse cost
 monthlyStorageCost = 50000
 
-# Monthly salary cost
+#Monthly salary cost
 monthlySalaryCost = 1*30000 + 70000
 
 def totalCostusd(cfa2usd, n1, n2):
