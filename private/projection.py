@@ -36,7 +36,7 @@ def totalRevenue(unitPrice, quantity):
 
 total_revenue = totalRevenue(437925*1.18, 90) + totalRevenue(475000, 100)
 
-# Profit
+#Profit
 def profit(total_revenue, total_cost):
 	return math.floor(total_revenue - total_cost_cfa)
 
