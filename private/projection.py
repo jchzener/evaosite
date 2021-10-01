@@ -14,7 +14,7 @@ customsCost = 5384784 + 100000 + 480000 + 200000 + 1000000
 #Monthly Security agency charges
 monthlySecuCost = 100000*0
 
-# Monthly Storage warehouse cost
+#Monthly Storage warehouse cost
 monthlyStorageCost = 50000
 
 # Monthly salary cost
