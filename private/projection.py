@@ -1,7 +1,7 @@
 import math
 
 #Expenses in USD
-# USDtoCFA:
+#USDtoCFA:
 cfa2usd = 555                #buy_rate
 usd2cfa = 555                #sell_rate
 
