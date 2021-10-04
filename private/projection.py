@@ -57,7 +57,7 @@ print("unit_cost: {} \nunit_cost_cfa: {} \ntotal_revenue_cfa: {} \nprofi_cfa: {}
 # 431722.5
 # unit_cost_cfa*1.5 - unit_cost_cfa
 #143907.5
-#>> 150000*190
+#> 150000*190
 #28500000
 #>>> 150000*190/55
 #51818.1818181818
