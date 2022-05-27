@@ -2,4 +2,4 @@
 
 ### Deploys
 
-'Deploy on github, using Cmake to link to the domain name'
+'Deploy on github'
