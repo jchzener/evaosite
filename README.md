@@ -1,4 +1,4 @@
-# 🚀  Landing page for Evao 🚀  
+# Evao 🚀  
 
 ### Deploys
 
